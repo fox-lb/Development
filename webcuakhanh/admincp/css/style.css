@@ -1,0 +1,54 @@
+body {
+    background-image: url('../../Frontend/images/dang.jpg');
+}
+.admin_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.admin_list li {
+    background-color: coral;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+    border: 1.5px solid rgb(18, 20, 18);
+    padding: 3px;
+}
+.admin_list li a {
+    text-decoration: none;
+    color: rgb(18, 20, 18);
+    font-size: larger;
+    font-weight: 600;
+}
+.admin_list li:hover{
+    background-color: salmon;
+    width: auto;
+    height: auto;
+}
+.clear {
+    clear: both;
+}
+#admin_header{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.wrapper {
+    background-color: rgb(25, 201, 186);
+    border: 3px solid black;
+    height: auto;
+    margin: 5px auto;
+    margin-top: 70px;
+    padding: 5px;
+    width: 70%;
+}
+.themsp {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 3px;
+    background-color: rgb(159, 182, 204);
+}
+.themdanhmuc{
+    font-weight: 1000;
+}
