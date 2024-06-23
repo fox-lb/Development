@@ -1,0 +1,21 @@
+
+ul.doc {
+    padding: 0;
+    margin: 0px;
+    list-style:none;
+    width: 100%;
+}
+ul.doc li {
+    float: left;
+    width: 15.2%;
+    border: 1px solid goldenrod;
+    margin: 3px;
+    background-color: lightgrey;
+}
+ul.doc li img {
+    width: 100%;
+}
+ul.doc li a {
+    text-decoration: none;
+    height: 50px;
+}

@@ -1,0 +1,299 @@
+body{
+    margin: 3px;
+    padding: 0;
+    background-color: rgb(161, 188, 211);
+}
+
+.wrapper {
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    border: 1px solid rgb(9, 189, 221);
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url('../MainPage/images.jpg');
+    /* background-size: cover; */
+}
+.menu {
+    border: 1px solid blue;
+    height: 47px;
+    width: 100%;
+    background-color: rgb(85, 188, 206);
+}
+.list-menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 60%;
+}
+.list-menu li{
+    float: left;
+    margin: 8px;
+    padding: 4px;
+}
+.list-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 15px;
+}
+.list-menu li:hover{
+    background-color: salmon;
+}
+#main {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+}
+.sidebar {
+    border: 1px solid rgb(10, 10, 10);
+    height: auto;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 0px;
+    float: left;
+    padding: 3px;
+    background-color: rgba(252, 252, 252, 0.4); /* Màu đen với độ trong suốt là 50% */
+}
+.list-sidebar {
+    /* margin: 0 auto; */
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.list-sidebar li{
+    margin: 3px;
+    padding: 8px;
+    border: 1px solid brown;
+    background-color: rgb(202, 204, 214);
+}
+.list-sidebar li a {
+    text-decoration: none;
+}
+.list-sidebar li:hover{
+    background-color: salmon;
+}
+.main-content {
+    border: 1px solid rgb(19, 3, 6);
+    height: auto;
+    width: 77.8%;
+    margin-top: 5px;
+    margin-right: 4px;
+    float: right;
+}
+ul.product-list {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+}
+ul.product-list li {
+    float: left;
+    width: 19.2%;
+    border: 1px solid rgb(224, 198, 130);
+    margin: 3px;
+    background-color: rgb(241, 234, 234);
+}
+ul.product-list li img {
+    width: 100%;
+}
+ul.product-list li a {
+    text-decoration: none;
+    height: 40px;
+}
+.price {
+    color: red;
+}
+.footer {
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(240, 64, 78);
+}
+.clear {
+    clear: both;
+}
+#dmsp{
+    margin-left: 4px;
+}
+.footer {
+    text-align: center;
+    height: auto;
+}
+.search{
+    height: 30px;
+    width: 200px;
+    transition: transform 0.3s ease;
+    border: 1px solid;
+    border-radius: 7px
+}
+.submit{
+    width: 100px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search:focus{
+    transform: scale(1.3);
+}
+.search_form{
+    text-align: center;
+}
+.anhchitiet{
+    padding: 10px;
+    width: 35%;
+    height: 50%;
+}
+.thongtinchitiet{
+    padding: 10px;
+}
+.taikhoan{
+    list-style: none;
+    font-size: 18px;
+    color: blue;
+}
+.taikhoan li{
+    padding: 5px;
+    margin: 5px;
+    color: rgb(245, 12, 12);
+}
+.taikhoan li a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: rgb(3, 3, 5);
+    background-color: #2587f0;
+}
+.taikhoan li a:hover{
+    background-color: rgb(48, 160, 235);
+}
+.tk{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(47, 202, 202);
+}
+
+.taikhoan2{
+    list-style: none;
+    font-size: 18px;
+    color: blue;
+}
+.taikhoan2 li{
+    padding: 5px;
+    margin: 5px;
+    color: rgb(2, 2, 2);
+}
+.taikhoan2 li a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #2587f0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.taikhoan2 li a:hover{
+    background-color: rgb(48, 160, 235);
+}
+.taikhoan2 li h3{
+    color: red;
+}
+.change_info{
+    padding: 20px;
+}
+.input-group input{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.input-group textarea{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.input-group label,textarea {
+    font-weight: bold;
+}
+.taikhoan2 li p{
+    color: red;
+}
+.thongtinchitiet a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #d0d9e2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.taikhoan4 li a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #007bff;
+}
+.taikhoan4{
+    list-style: none;
+    font-size: 18px;
+    color: blue;
+}
+.taikhoan4 li{
+    color: rgb(245, 12, 12);
+}
+
+.input-group2{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.giohang {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+ul.giohang li {
+    float: left;
+    width: 19.2%;
+    border: 1px solid rgb(224, 198, 130);
+    margin: 3px;
+    background-color: rgb(241, 234, 234);
+}
+ul.giohang li img {
+    width: 100%;
+}
+ul.giohang li a {
+    text-decoration: none;
+    height: 40px;
+}
+.h3ne{
+    text-align: center;
+    padding: 15px;
+}
+.taikhoan5 {
+    background-color: #007bff;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+}
+.notify{
+    color: red;
+    padding: 5px;
+}
